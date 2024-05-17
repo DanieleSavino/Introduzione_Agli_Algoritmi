@@ -22,7 +22,7 @@ def conta_nodi(R):
         return 0
     
     # Inizializza left e right
-    left = right = 0
+    left = right = 0 
 
     # Conta a sinistra
     if R.left != None:
@@ -32,7 +32,7 @@ def conta_nodi(R):
     if R.right != None:
         right = conta_nodi(R.right)
 
-    # Se soddisfa la condizione restituisce 1 + la somma dei sottonodi validi
+    # Se soddisfa la condizione restituisce la somma dei sottonodi validi + se stesso
     if R.left != None and R.right != None and R.key % 2 == 0:
         return left + right + 1
     

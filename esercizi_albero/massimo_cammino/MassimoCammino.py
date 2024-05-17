@@ -5,7 +5,6 @@ sys.path.append(parent_dir)
 
 from strutture_dati.AlberoBinario import Node
 
-
 """
 Dato un albero binario non vuoto a valori interi T ed un suo
 nodo v, il costo del cammino radice-v è definito come la somma
