@@ -20,17 +20,12 @@ def conta_nodi(R):
     # Se è vuoto restituisce 0
     if R == None:
         return 0
-    
-    # Inizializza left e right
-    left = right = 0 
 
     # Conta a sinistra
-    if R.left != None:
-        left = conta_nodi(R.left)
+    left = conta_nodi(R.left)
 
     # Conta a destra
-    if R.right != None:
-        right = conta_nodi(R.right)
+    right = conta_nodi(R.right)
 
     # Se soddisfa la condizione restituisce la somma dei sottonodi validi + se stesso
     if R.left != None and R.right != None and R.key % 2 == 0:
