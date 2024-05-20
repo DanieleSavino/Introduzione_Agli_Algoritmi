@@ -9,6 +9,9 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 - MaxSequenzaElementiUguali .py
 - TrovaDuplicato.py
 
+## Esercizi Lista Linkata
+- ChiaviPari.py
+
 ## Esercizi Albero
 - MassimoCammino.py
 - ContaNodi.py
