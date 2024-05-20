@@ -1,18 +1,15 @@
 # Introduzione Agli Algoritmi
 Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti del corso **Introduzione Agli Algoritmi** della Sapienza.
 
-## strutture dati
-- AlberoBinario.py
+## Strutture Dati
 - ListaLinkata.py
+- AlberoBinario.py
 
-## esercizi array
-- TrovaDuplicato.py
+## Esercizi Array
 - MaxSequenzaElementiUguali .py
+- TrovaDuplicato.py
 
-## esercizi albero
-- ContaNodi.py
+## Esercizi Albero
 - MassimoCammino.py
-
-## esercizi liste linkate
-- MinimoMassimo.py
+- ContaNodi.py
 

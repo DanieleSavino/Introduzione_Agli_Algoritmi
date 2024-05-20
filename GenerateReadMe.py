@@ -18,7 +18,7 @@ def listFiles(path):
     return A
 
 def mapFiles(path):
-    d = {s.replace('_', ' ') : listFiles(s) for s in os.listdir(path) if os.path.isdir(os.path.join(path, s)) and not s.startswith('.')}
+    d = {' '.join(word[0].upper() + word[1:] for word in s.split('_')) : listFiles(s) for s in os.listdir(path) if os.path.isdir(os.path.join(path, s)) and not s.startswith('.')}
     return d
 
 def generateText(fileMap):
