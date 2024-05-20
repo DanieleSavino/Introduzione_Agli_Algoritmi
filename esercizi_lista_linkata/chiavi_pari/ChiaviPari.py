@@ -13,6 +13,8 @@ di P, in ordine crescente e senza ripetizioni
 
 def ChiaviPari(P):
     A = []
+    if P == None:
+        return None
 
     while P != None:
         if(P.key % 2 == 0):
