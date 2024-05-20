@@ -15,4 +15,5 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 
 ## esercizi liste linkate
 - MinimoMassimo.py
+- ChiaviPari.py
 
