@@ -5,16 +5,17 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 - ListaLinkata.py
 - AlberoBinario.py
 
+## Esercizi Liste Linkate
+- MinimaSommaMinoreK.py
+- MinimoMassimo.py
+- ChiaviPari.py
+
 ## Esercizi Array
 - MaxSequenzaElementiUguali .py
 - TrovaDuplicato.py
 
-## Esercizi Lista Linkata
-- ChiaviPari.py
-
 ## Esercizi Albero
 - MassimoCammino.py
-
-## esercizi liste linkate
-- MinimoMassimo.py
+- ContaNodi.py
+- TrovaK_Esimo.py
 
