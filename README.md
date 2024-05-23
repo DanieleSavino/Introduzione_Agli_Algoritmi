@@ -14,5 +14,7 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 
 ## Esercizi Albero
 - MassimoCammino.py
-- ContaNodi.py
+
+## esercizi liste linkate
+- MinimoMassimo.py
 
