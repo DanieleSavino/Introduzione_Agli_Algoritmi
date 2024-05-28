@@ -11,13 +11,11 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 
 ## Esercizi Albero
 - ContaNodi.py
-- Calcolo_Costo_Computazionale.pdf
 - TrovaK_Esimo.py
 - ContaNodiValidi.py
 - MassimoCammino.py
 
 ## Esercizi Liste Linkate
-- Calcolo Costo Computazionale.pdf
 - MinimaSommaMinoreK.py
 - PrimoNodoSomma.py
 - MinimoMassimo.py

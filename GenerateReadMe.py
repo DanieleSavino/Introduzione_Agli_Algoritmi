@@ -11,7 +11,7 @@ def listFiles(path):
         newPath = os.path.join(path, file)
 
         if os.path.isfile(newPath):
-            A.append(file)
+            if newPath.endswith('.py'): A.append(file)
         else:
             A.extend(listFiles(newPath))
 
