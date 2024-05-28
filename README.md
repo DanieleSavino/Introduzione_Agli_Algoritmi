@@ -2,20 +2,24 @@
 Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti del corso **Introduzione Agli Algoritmi** della Sapienza.
 
 ## Strutture Dati
-- ListaLinkata.py
 - AlberoBinario.py
-
-## Esercizi Liste Linkate
-- MinimaSommaMinoreK.py
-- MinimoMassimo.py
-- ChiaviPari.py
+- ListaLinkata.py
 
 ## Esercizi Array
-- MaxSequenzaElementiUguali .py
 - TrovaDuplicato.py
+- MaxSequenzaElementiUguali .py
 
 ## Esercizi Albero
-- MassimoCammino.py
 - ContaNodi.py
+- Calcolo_Costo_Computazionale.pdf
 - TrovaK_Esimo.py
+- ContaNodiValidi.py
+- MassimoCammino.py
+
+## Esercizi Liste Linkate
+- Calcolo Costo Computazionale.pdf
+- MinimaSommaMinoreK.py
+- PrimoNodoSomma.py
+- MinimoMassimo.py
+- ChiaviPari.py
 
