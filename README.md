@@ -13,6 +13,7 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 - ContaNodi.py
 - TrovaK_Esimo.py
 - NodiUguali.py
+- CheckAlberoDiRicerca.py
 - ContaNodiValidi.py
 - MassimoCammino.py
 
