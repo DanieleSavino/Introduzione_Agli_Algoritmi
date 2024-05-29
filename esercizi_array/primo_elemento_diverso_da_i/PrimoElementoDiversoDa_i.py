@@ -1,5 +1,12 @@
 from random import randint
 
+"""  
+    Sia dato un array A contenente n interi distinti e ordinati in
+    modo crescente.
+    Progettare un algoritmo che, in tempo O(log n), individui la posizione più a sinistra nell'array per cui si ha A[i] 6= i,l'algoritmo
+    restituisce -1 se una tale posizione non esiste.
+"""
+
 def primo_elemento_diverso_da_i(A):
     # Se il primo elemento è diverso da 0 lo abbiamo trovato
     # Altrimenti la lista sarà ordinata di interi positivi

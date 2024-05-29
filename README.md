@@ -7,6 +7,7 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 
 ## Esercizi Array
 - TrovaDuplicato.py
+- PrimoElementoDiversoDa_i.py
 - MaxSequenzaElementiUguali .py
 
 ## Esercizi Albero
