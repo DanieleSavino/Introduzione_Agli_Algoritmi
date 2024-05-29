@@ -17,5 +17,6 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 ## Esercizi Albero
 - MassimoCammino.py
 - ContaNodi.py
+- NodiUguali.py
 - TrovaK_Esimo.py
 
