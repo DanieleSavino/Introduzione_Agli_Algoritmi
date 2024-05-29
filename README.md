@@ -8,6 +8,7 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 ## Esercizi Liste Linkate
 - MinimaSommaMinoreK.py
 - MinimoMassimo.py
+- PrimoNodoSomma.py
 - ChiaviPari.py
 
 ## Esercizi Array
@@ -18,5 +19,6 @@ Collezione di esercizi su algoritmi e strutture dati tratti da vecchi scritti de
 - MassimoCammino.py
 - ContaNodi.py
 - NodiUguali.py
+- ContaNodiValidi.py
 - TrovaK_Esimo.py
 
