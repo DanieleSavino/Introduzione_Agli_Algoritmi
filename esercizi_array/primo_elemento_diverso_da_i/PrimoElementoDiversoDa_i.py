@@ -1,21 +1,31 @@
 from random import randint
 
 def primo_elemento_diverso_da_i(A):
-    if A[0] < 0: return 0
+    # Se il primo elemento è diverso da 0 lo abbiamo trovato
+    # Altrimenti la lista sarà ordinata di interi positivi
+    if A[0] != 0: return 0
 
+    # Inizializziamo gli indici
     i, j = 0, len(A)-1
 
+    # Ricerca binaria
     while i < j:
+        # Calcola il centro
         m = (i+j)//2
         
+        # Se l'elemento centrale è al posto i l'elemento che cerchiamo sarà a destra
+        # Poiche abbiamo verificato all'inizio che l'array parte da 0, quindi, A[0:m+1] = [0, 1, ..., m-1, m]
         if A[m] == m:
             i = m + 1
         
+        # Altrimenti l'elemento è a sinistra m compreso
         else:
             j = m
 
+    # Alla fine rimarrà un indice i == j che controliamo
     if A[i] != i: return i
 
+    # Se non è questo ritorniamo -1
     return -1 
 
 def test(n, length):
