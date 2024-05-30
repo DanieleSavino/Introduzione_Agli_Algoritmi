@@ -14,6 +14,17 @@ class Node:
 
         return Q
     
+    def __eq__(self, Q):
+        P = self
+        while P  and Q:
+            if P.key != Q.key:
+                return False
+            
+            P = P.next
+            Q = Q.next
+
+        return not(P or Q)
+    
     def __repr__(self):
         A = []
         P = self
